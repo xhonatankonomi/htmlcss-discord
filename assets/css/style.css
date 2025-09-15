@@ -76,6 +76,10 @@ header
 {
     margin: auto;
     margin-right: 25px;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: white;
+    color: black;
 }
 
 .style_windows
@@ -83,5 +87,15 @@ header
 {
     margin: 10px;
     margin-left: 25px;
-    
+    border-radius: 25px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.space 
+
+{
+    height: 250px;
+    margin: auto;
 }
