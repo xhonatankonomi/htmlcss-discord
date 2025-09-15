@@ -1,2 +1,43 @@
-* {
+:root
+{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header
+{
+    background-color: #3161e0;
+}
+
+.menu
+
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 100px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button_login 
+{
+
+}
+
+.container
+
+{
+    width: 65%;
+    margin: auto;
+    max-width: 1200px;
 }
