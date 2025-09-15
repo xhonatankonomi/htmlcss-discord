@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px dashed;
+    /* border: 1px dashed; */
 }
 
 header
@@ -29,14 +29,13 @@ header
     height: 80px;
     color: white;
     align-items: center;
-    justify-content: space-between;
     list-style: none;
+    justify-content: space-around;
 }
 
 .container
 
 {
-    display: flex;
     width: 65%;
     margin: auto;
     max-width: 1200px;
@@ -46,8 +45,43 @@ header
 .mainheader
 
 {
+    width: 100%;
     background-image: url('../img/jumbo.png');
+    display: flex;
     background-size: cover;
     background-position: center;
     color: white;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.mainheader h1 
+{
+    font-size: 45px;
+}
+
+.mainheader p 
+{
+    font-size: 20px;
+}
+
+.buttons
+{
+    margin: auto;
+}
+
+.style_mac
+
+{
+    margin: auto;
+    margin-right: 25px;
+}
+
+.style_windows
+
+{
+    margin: 10px;
+    margin-left: 25px;
+    
 }
