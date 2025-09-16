@@ -93,9 +93,54 @@ header
     color: white;
 }
 
+.style_download
+{
+    margin: auto;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #8ea1e1;
+    color: white;
+    border-color: #8ea1e1;
+}
+
 .space 
 
 {
     height: 250px;
     margin: auto;
 }
+
+.space_2
+
+{
+    height: 85px;
+    margin: auto;
+}
+
+.space_3
+
+{
+    height: 25px;
+    margin: auto;
+}
+
+.first_row
+
+{
+    display: flex;
+    align-items: center;
+    font-size: large;
+    color: #23272a;
+}
+
+.final_row
+
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: #23272a;
+    text-align: center;
+}
+
